@@ -1,0 +1,78 @@
+.card-categoria-container {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 24px;
+  width: 312px;
+  height: 220px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.card-categoria {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-categoria img {
+  padding-top: 41px;
+}
+
+/* padding espeficio apenas para o aviao */
+.img-padding-aviao img {
+  padding-top: 24px;
+}
+
+.card-categoria h2 {
+  padding-top: 24px;
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+}
+
+@media (min-width: 768px) {
+  .container-main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    width: 370px;
+    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .card-categoria-container {
+    margin-bottom: 0;
+    width: 370px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container-main {
+    display: flex;
+    width: 1001px;
+    gap: 24px;
+  }
+
+  .card-categoria img {
+    padding-top: 24px;
+    justify-content: baseline;
+  }
+
+  .h2-transfer {
+    margin-top: 32px;
+  }
+
+  .card-onibus img {
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .container-main {
+    margin-top: 84px;
+    width: 1200px;
+  }
+
+
+}

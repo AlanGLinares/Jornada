@@ -1,25 +1,3 @@
-.title {
-  position: relative;
-}
-
-.title h3 {
-  text-align: center;
-  font-size: 28px;
-}
-
-.title span {
-  display: block;
-  width: 180px;
-  height: 4px;
-  position: absolute;
-  content: "";
-  z-index: 1;
-  background-color: #b81515;
-  left: 25%;
-  border-radius: 4px;
-  margin-top: 12px;
-}
-
 .card {
   margin-top: 32px;
   display: flex;
@@ -162,5 +140,4 @@
   .title {
     margin-top: 32px;
   }
- 
 }

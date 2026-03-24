@@ -1,10 +1,12 @@
 @import url(style/header.css);
 @import url(style/hero.css);
 @import url(style/oferta.css);
+@import url(style/categoria.css);
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
+  height: 8000px;
 }
 
 :root {
@@ -40,3 +42,25 @@ img {
   border-radius: 4px;
 }
 
+
+.title {
+  position: relative;
+}
+
+.title h3 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.colored-bar {
+  display: block;
+  width: 180px;
+  height: 4px;
+  position: absolute;
+  content: "";
+  z-index: 1;
+  background-color: #b81515;
+  left: 25%;
+  border-radius: 4px;
+  margin-top: 12px;
+}
