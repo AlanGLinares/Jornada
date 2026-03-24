@@ -1,0 +1,166 @@
+.title {
+  position: relative;
+}
+
+.title h3 {
+  text-align: center;
+  font-size: 28px;
+}
+
+.title span {
+  display: block;
+  width: 180px;
+  height: 4px;
+  position: absolute;
+  content: "";
+  z-index: 1;
+  background-color: #b81515;
+  left: 25%;
+  border-radius: 4px;
+  margin-top: 12px;
+}
+
+.card {
+  margin-top: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.card-main img {
+  border-radius: 10px;
+  width: 320px;
+  height: 288px;
+}
+
+.card-main {
+  position: relative;
+}
+
+.card-div {
+  padding-top: 32px;
+}
+
+.content-card {
+  position: absolute;
+  text-align: center;
+  justify-content: center;
+  color: #fff;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+}
+
+.content-card h3 {
+  font-size: 18px;
+  font-weight: 400;
+  padding-top: 24px;
+  padding-bottom: 8px;
+}
+
+.content-card h2 {
+  font-size: 40px;
+  line-height: auto;
+  font-weight: 600;
+  padding-bottom: 24px;
+}
+
+.content-card p {
+  font-size: 32px;
+  font-weight: 700;
+  padding-bottom: 24px;
+}
+
+.content-card button {
+  background-color: #b81515;
+  color: #fff;
+  border: none;
+  width: 280px;
+  font-weight: 600;
+  padding: 16px 74px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .card-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 32px;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .title span {
+    display: block;
+    width: 180px;
+    height: 4px;
+    position: absolute;
+    content: "";
+    z-index: 1;
+    background-color: #b81515;
+    left: 40%;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+
+  .card {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 370px;
+  }
+
+  .card-main img {
+    border-radius: 10px;
+    width: 370px;
+    height: 288px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+    padding: 12px;
+  }
+
+  .title span {
+    display: block;
+    width: 180px;
+    height: 4px;
+    position: absolute;
+    content: "";
+    z-index: 1;
+    background-color: #b81515;
+    left: 45%;
+    border-radius: 4px;
+    margin-top: 12px;
+  }
+
+  .card {
+    margin-top: 8px;
+    margin-bottom: 12px;
+    width: 100%;
+  }
+
+  .card-main img {
+    border-radius: 10px;
+    width: 700px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .card-div {
+    max-width: 1400px;
+    margin: 0 auto;
+    gap: 12px;
+    margin-top: 84px;
+  }
+
+  .title {
+    margin-top: 32px;
+  }
+ 
+}
