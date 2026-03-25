@@ -1,0 +1,39 @@
+
+
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.card-img img {
+  margin: 0 auto;
+  width: 312px;
+  height: 360px;
+  border-radius: 8px;
+}
+
+.card-container h2 {
+  padding: 24px 24px;
+}
+
+.card-container p {
+  padding-left: 24px;
+  text-align: left;
+  font-size: 20px;
+  width: 325px;
+  line-height: 32px;
+}
+
+.card-counted button {
+  margin: 24px;
+  background-color: #b81515;
+  color: #fff;
+  border: none;
+  width: 312px;
+  font-weight: 600;
+  padding: 16px 74px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 20px;
+}
