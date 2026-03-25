@@ -1,6 +1,4 @@
 
-
-
 .card-container {
   display: flex;
   flex-direction: column;
@@ -36,4 +34,79 @@
   border-radius: 4px;
   cursor: pointer;
   font-size: 20px;
+}
+
+@media (min-width: 768px) {
+  .card-img img {
+    width: 750px;
+    height: 452px;
+  }
+
+  .card-container h2 {
+    padding: 12px 12px;
+  }
+
+  .card-container p {
+    padding-left: 12px;
+    width: 679px;
+  }
+
+  .card-counted button {
+    margin: 12px;
+    width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .card-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 64px;
+  }
+
+  .card-img img {
+    width: 550px;
+    height: 452px;
+  }
+
+  .card-container p {
+    width: 550px;
+  }
+
+    .card-counted button {
+    margin: 12px;
+    width: 280px;
+  }
+  
+}
+
+
+@media (min-width: 1440px) {
+  .card-grid {
+    width: 1350px;
+    margin: 0 auto;
+    gap: 24px;
+    padding-top: 64px;
+  }
+
+  
+  .card-counted p{
+    padding-left: 0px;
+  }
+
+  .card-counted h2{
+    padding: 12px 0px;
+  }
+
+  .card-counted button {
+    margin: 0px;
+    margin-top: 24px;
+  }
+
+  .card-img img {
+    margin: 0px;
+    width: 650px;
+  }
+
+
 }
