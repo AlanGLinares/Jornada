@@ -1,7 +1,7 @@
-
 .card-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .card-img img {
@@ -37,11 +37,6 @@
 }
 
 @media (min-width: 768px) {
-  .card-img img {
-    width: 750px;
-    height: 452px;
-  }
-
   .card-container h2 {
     padding: 12px 12px;
   }
@@ -49,6 +44,15 @@
   .card-container p {
     padding-left: 12px;
     width: 679px;
+  }
+
+  .card-img img {
+    width: 750px;
+    height: 452px;
+  }
+
+  .card-counted {
+    margin-right: 85px;
   }
 
   .card-counted button {
@@ -65,36 +69,53 @@
   }
 
   .card-img img {
-    width: 550px;
-    height: 452px;
+    width: 450px;
+    height: 350px;
+  }
+
+  .card-container {
+    max-width: 500px;
   }
 
   .card-container p {
-    width: 550px;
+    width: 480px;
   }
 
-    .card-counted button {
+  .card-counted button {
     margin: 12px;
     width: 280px;
   }
-  
-}
 
+  .card-counted {
+    margin-right: 0px;
+  }
+
+  .title span {
+    left: 40%;
+  }
+}
 
 @media (min-width: 1440px) {
   .card-grid {
-    width: 1350px;
-    margin: 0 auto;
+    width: 1500px;
     gap: 24px;
-    padding-top: 64px;
+    margin: 0 auto;
   }
 
-  
-  .card-counted p{
+  .card-container {
+    max-width: 1700px;
+  }
+
+  .card-counted {
+    margin-right: 126px;
+  }
+
+  .card-counted p {
     padding-left: 0px;
+    width: 600px;
   }
 
-  .card-counted h2{
+  .card-counted h2 {
     padding: 12px 0px;
   }
 
@@ -104,9 +125,11 @@
   }
 
   .card-img img {
-    margin: 0px;
-    width: 650px;
+    width: 780px;
+    height: 452px;
   }
 
-
+  .title span {
+    left: 45%;
+  }
 }
